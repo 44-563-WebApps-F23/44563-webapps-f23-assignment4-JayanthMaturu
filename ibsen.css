@@ -34,3 +34,44 @@ th, td {
     padding: 10px;
     text-align: center;
   }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: left;
+}
+
+.footer-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.footer-navbar li {
+    float: left;
+    border:  1px solid #bbb;
+}
+.footer-navbar li.last-child {
+    border-right: none;
+  }
+
+.footer-navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-weight:bolder;
+    margin: auto;
+}
+
+.footer-navbar a:hover {
+    text-decoration: underline;
+}
