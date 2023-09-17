@@ -15,3 +15,20 @@
 .Billing{color: cadetblue;}
 .Hovstad{color: chocolate;}
 .Stockmann{color: darkgreen;}
+
+table{
+    border: 3px;
+    border-color: brown;
+    padding: 4%;
+    border-color: deeppink;
+}
+tr:nth-child(even) {
+    background-color:fuchsia;
+  }
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+th, td {
+    padding: 10px;
+    text-align: center;
+  }
