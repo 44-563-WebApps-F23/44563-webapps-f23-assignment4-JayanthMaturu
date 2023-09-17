@@ -11,6 +11,8 @@
     color: firebrick;}
 
 .name{font-size: medium;}
+.name:hover{text-shadow: 3px 3px 2px red;
+    color: transparent;}
 
 .Billing{color: cadetblue;}
 .Hovstad{color: chocolate;}
