@@ -1,8 +1,8 @@
-.speech{font-size: 10;
+.speech{font-size: medium;
     color:rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;}
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 
-.direction{font-size: 20;
+.direction{font-size: large;
     color:rgb(0, 0, 0);
     font-family:'Times New Roman', Times, serif;
     background-color:navajowhite;}
@@ -10,9 +10,8 @@
 .direction:hover{background-color:lightgray;
     color: firebrick;}
 
-.name{color: black;
-    font-size: 15;}
-    
+.name{font-size: medium;}
+
 .Billing{color: cadetblue;}
 .Hovstad{color: chocolate;}
 .Stockmann{color: darkgreen;}
